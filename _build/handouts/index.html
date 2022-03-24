@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Cleaning Data | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">Cleaning Data</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">Cleaning Data</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#data-cleaning-practice">Data Cleaning Practice</a><ul>
+<li><a class="reference internal" href="#step-1-understanding-your-data">Step 1: Understanding Your Data</a></li>
+<li><a class="reference internal" href="#step-2-remove-and-fix-columns">Step 2: Remove and Fix Columns</a></li>
+<li><a class="reference internal" href="#step-3-index-and-filter">Step 3: Index and Filter</a></li>
+<li><a class="reference internal" href="#step-4-handle-bad-data">Step 4: Handle Bad Data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="cleaning-data">
+<h1>Cleaning Data</h1>
+<section class="section" id="introduction">
+<h2>Introduction</h2>
+<p>For this exercise, follow along with the course in Pluralsight called
+<a class="reference external" href="https://app.pluralsight.com/library/courses/cleaning-data-python-data-playbook" target="_blank">Cleaning Data: Python Data Playbook</a>
+and conduct the data cleaning processes using the exercise files.</p>
+<div class="admonition note">
+<p class="admonition-title">More Data Wrangling Practice</p>
+<div class="admonition-body docutils container">
+<p>While this course and exercise are similar to the data wrangling exercise you completed earlier in this
+unit, this course presents a slightly different but important additional practice step to solidify your
+pandas skills as well as your general data manipulation skills.</p>
+<p>Even though it’s similar, <strong>make sure you complete each coding step of this course</strong>, pausing and processing
+the work you are doing in each step of the demo.</p>
+</div>
+</div>
+</section>
+<section class="section" id="setup">
+<h2>Setup</h2>
+<p>Download the starter files on Frodo for this exercise. You will receive two
+files, <cite>artwork_data.csv</cite> and <cite>artwork_sample.csv</cite>.</p>
+<p>Then, create a new file of your own called <cite>clean.py</cite> that will manipulate
+the data in the <code class="docutils literal notranslate"><span class="pre">.csv</span></code> files you downloaded.</p>
+<p>Make sure you have successully installed pandas in your python environment.
+You can either install pandas globally on your machine (<code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">pandas</span></code>)
+or create a virtual environment for this exercise and install pandas in
+the environment.</p>
+<pre class="console literal-block">$ <span class="cmd">virtualenv env</span>
+$ <span class="cmd">source env/bin/activate</span>
+$ (env) <span class="cmd">pip3 install pandas</span></pre>
+</section>
+<section class="section" id="data-cleaning-practice">
+<h2>Data Cleaning Practice</h2>
+<p>Follow along with the data cleaning steps in the course videos.</p>
+<div class="admonition note">
+<p class="admonition-title">Write code in a Python file</p>
+<div class="admonition-body docutils container">
+<p>Be sure to <strong>write your code
+in a Python file</strong> that you can push to Github at the end. <strong>Do not use
+Jupyter notebook during this exercise.</strong> We will be covering Jupyter notebook
+later on in the course, but until then, continue to practice writing
+code in a regular <code class="docutils literal notranslate"><span class="pre">.py</span></code> file.</p>
+</div>
+</div>
+<section class="section" id="step-1-understanding-your-data">
+<h3>Step 1: Understanding Your Data</h3>
+<p>Conduct the steps in the video to better understand the artwork data provided in the
+starter files for this exercise. Ensure that you are <strong>editing and running</strong> your Python
+to see the output from <cite>pandas</cite>. This will help you learn more about your data.</p>
+</section>
+<section class="section" id="step-2-remove-and-fix-columns">
+<h3>Step 2: Remove and Fix Columns</h3>
+<p>Follow the video to drop, change, and rename columns in your dataset. Make sure to
+note the many reasons a data analyst may have for manipulating columns within their
+dataset.</p>
+</section>
+<section class="section" id="step-3-index-and-filter">
+<h3>Step 3: Index and Filter</h3>
+<p>Practice indexing and filtering your pandas dataset in this section. As above,
+follow along with the video.</p>
+</section>
+<section class="section" id="step-4-handle-bad-data">
+<h3>Step 4: Handle Bad Data</h3>
+<p>Perhaps the most important section, conduct the operations that allow you to remove
+whitespace, replace bad data, drop rows of data, and remove duplicate data for the
+artist artwork dataset.</p>
+</section>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2021 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>
